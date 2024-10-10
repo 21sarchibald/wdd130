@@ -1,0 +1,34 @@
+body {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(73, 153, 223);
+    color: white;
+
+}
+h1{
+    font-size: 40px;
+}
+
+h1:hover{
+    font-size: 40px;
+    color: black;
+}
+
+#gospel {
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+
+#photo {
+    width: 40%;
+}
+
+#quote2 {
+    font-size: 40px;
+}
+
+footer {
+    color: black;
+}
