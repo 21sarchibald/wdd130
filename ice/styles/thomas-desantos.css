@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    background-color: grey;
+}
+
+#hero-img {
+    display: block;
+    margin: auto;
+}
+
+.images {
+    border-radius: 50%;
+    border: 10px solid #363737;
+}
