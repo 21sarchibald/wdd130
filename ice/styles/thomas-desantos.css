@@ -4,11 +4,13 @@ body {
 }
 
 #hero-img {
+    width: 100%;
     display: block;
     margin: auto;
 }
 
 .images {
+    width: 25%;
     border-radius: 50%;
-    border: 10px solid #363737;
+    border: 15px solid #363737;
 }
