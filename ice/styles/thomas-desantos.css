@@ -9,8 +9,13 @@ body {
     margin: auto;
 }
 
+#circles {
+    text-align: center;
+}
+
 .images {
-    width: 25%;
+    width: 17%;
     border-radius: 50%;
-    border: 15px solid #363737;
+    border: 14px solid #363737;
+    margin: 50px;
 }
