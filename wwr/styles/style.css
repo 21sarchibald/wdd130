@@ -1,3 +1,28 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #F2D5BA  ;
+  --secondary-color: #E68A7C ;
+  --accent1-color: #6CC8BE;
+  --accent2-color: #354543;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Abel", serif;
+  --paragraph-font: "Arial", sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #354543;  /* headlines on a white background */ 
+  --headline-color-on-color: #F2D5BA; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #354543; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #F2D5BA; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #354543  ;
+  --nav-link-color: #354543;
+  --nav-background-color: #E68A7C;
+  --nav-hover-link-color: #F2D5BA;
+  --nav-hover-background-color: #354543;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -19,6 +44,7 @@ nav a:hover{
 }
 body {
     background-color: white;
+    font-family: "Abel", sans-serif;
 }
 #hero-img {
     width: 100%;
@@ -54,6 +80,9 @@ main section {
 #background {
     background-color: #F2D5BA;
     height: 725px;
+}
+.mountains {
+
 }
 .msg {
     background-color: #F2D5BA;
