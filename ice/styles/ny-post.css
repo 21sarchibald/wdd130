@@ -1,0 +1,41 @@
+body {
+    max-width: 400px;
+    text-align: center;
+}
+
+.timestamp {
+    color: darkblue
+}
+
+.body-text {
+    color: grey;
+}
+
+#bottom-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: darkblue;
+    height: 100px;
+}
+
+.numbers {
+    font-size: 1.5em;
+    color: white;
+}
+
+.description {
+    font-size: .8em;
+    color: white;
+}
+
+#read {
+    grid-column: 1/2;
+}
+
+#views {
+    grid-column: 2/3;
+}
+
+#comments {
+    grid-column: 3/4;
+}
