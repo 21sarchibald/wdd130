@@ -1,41 +1,43 @@
 body {
+    margin: 0 auto;
     max-width: 400px;
     text-align: center;
+    background-color: black;
 }
-
+#card {
+    border-radius: 10%;
+    background-color: white;
+}
+#image {
+    border-radius: 10% 10% 0% 0%;
+    width: 100%;
+}
 .timestamp {
-    color: darkblue
+    color: #4380DB;
 }
-
 .body-text {
+    font-size: 1.5em;
     color: grey;
+    padding: 5%;
 }
-
 #bottom-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: darkblue;
-    height: 100px;
-}
-
-.numbers {
-    font-size: 1.5em;
+    background-color: #4380DB;
     color: white;
+    align-content: center;
+    border-radius: 0 0 10% 10%;
 }
-
-.description {
-    font-size: .8em;
-    color: white;
-}
-
 #read {
     grid-column: 1/2;
+    border: solid lightgrey;
+    border-width: 0px 2px 0px 0px;
 }
-
 #views {
     grid-column: 2/3;
+    border: solid lightgrey;
+    border-width: 0px 2px 0px 0px;
 }
-
 #comments {
     grid-column: 3/4;
 }
