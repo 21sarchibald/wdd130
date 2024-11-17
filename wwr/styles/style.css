@@ -263,11 +263,16 @@ footer .social img {
     }
 }
 
+#rates-dates-header {
+    padding: 10px;
+}
+
 .rates-dates-grid {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    padding: 7%;
+    grid-template-columns: repeat(10, auto);
+    padding: 3% 10%;
     grid-column-gap: 7%;
+    align-items: center;
 }
 
 .gc-3-nights-card {
@@ -314,8 +319,13 @@ footer .social img {
     padding: 7%;
 }
 
-.bottom-img {
-    /* display: block; */
-    /* margin: 0 auto; */
-    grid-column: 1/10;
+#bottom-img {
+    grid-column: 1/7;
+}
+
+#calendar-widget {
+    grid-column: 7/11;
+    border: solid #E68A7C;
+    border-width: .5em;
+    
 }
