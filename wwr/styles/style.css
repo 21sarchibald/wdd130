@@ -262,3 +262,60 @@ footer .social img {
         margin-top: 25px;
     }
 }
+
+.rates-dates-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    padding: 7%;
+    grid-column-gap: 7%;
+}
+
+.gc-3-nights-card {
+    background-color: #F2D5BA;
+    grid-column: 1/6;
+    padding: 7%;
+}
+
+.gc-6-nights-card {
+    background-color: #F2D5BA;
+    grid-column: 6/11;
+    padding: 7%;
+}
+
+#gc-3-nights-div {
+    grid-column: 1/6;
+    padding: 7%;
+}
+
+#gc-6-nights-div {
+    grid-column: 6/11;
+    padding: 7%;
+}
+
+.salmon-river-card {
+    background-color: #F2D5BA;
+    grid-column: 1/6;
+    padding: 7%;
+}
+
+.desolation-card {
+    background-color: #F2D5BA;
+    grid-column: 6/11;
+    padding: 7%;
+}
+
+#salmon-river-nights-div {
+    grid-column: 1/6;
+    padding: 7%;
+}
+
+#desolation-nights-div {
+    grid-column: 6/11;
+    padding: 7%;
+}
+
+.bottom-img {
+    /* display: block; */
+    /* margin: 0 auto; */
+    grid-column: 1/10;
+}
